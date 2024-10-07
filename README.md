@@ -24,7 +24,7 @@ Het project is als volgt georganiseerd:
 ├── README.md             # Documentatie van het project
 ```
 
-# Up & running (optional)
+# Stappenplan
 
 ## 1. Installatie van Vereiste Bibliotheken:
 
