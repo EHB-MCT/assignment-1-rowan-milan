@@ -16,11 +16,9 @@ Het project is als volgt georganiseerd:
 │   ├── responder.py     # Bevat de logica voor het verwerken van inkomende e-mails en het verzenden van auto-responses
 │   ├── email_utils.py   # Hulpfuncties voor verbinding met e-mailservers en het laden van e-mail templates
 ├── logs/
-│   └── auto_responder.log  # Hierin worden logbestanden opgeslagen voor debugging en runtime logging
 ├── templates/
 │   └── auto_response_template.txt  # Standaard template voor het automatisch antwoord
 ├── tests/
-│   ├── test_responder.py  # Bevat unit tests voor het project
 ├── main.py               # Hoofdbestand waarmee je het project uitvoert
 ├── requirements.txt      # Lijst met benodigde Python-pakketten
 ├── README.md             # Documentatie van het project
