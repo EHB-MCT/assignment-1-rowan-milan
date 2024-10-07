@@ -3,6 +3,29 @@
 # Description
  Stuur automatische e-mails op basis van een schema of gebeurtenissen
 
+ ## Projectstructuur
+
+Het project is als volgt georganiseerd:
+
+```plaintext
+.
+├── config/
+│   └── config.py        # Bevat e-mailconfiguraties, zoals serverinstellingen en inloggegevens
+├── email_automation/
+│   ├── __init__.py      # Initialiseer email_automation als package
+│   ├── responder.py     # Bevat de logica voor het verwerken van inkomende e-mails en het verzenden van auto-responses
+│   ├── email_utils.py   # Hulpfuncties voor verbinding met e-mailservers en het laden van e-mail templates
+├── logs/
+│   └── auto_responder.log  # Hierin worden logbestanden opgeslagen voor debugging en runtime logging
+├── templates/
+│   └── auto_response_template.txt  # Standaard template voor het automatisch antwoord
+├── tests/
+│   ├── test_responder.py  # Bevat unit tests voor het project
+├── main.py               # Hoofdbestand waarmee je het project uitvoert
+├── requirements.txt      # Lijst met benodigde Python-pakketten
+├── README.md             # Documentatie van het project
+```
+
 # Up & running (optional)
 
 ## 1. Installatie van Vereiste Bibliotheken:
